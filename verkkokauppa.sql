@@ -52,14 +52,14 @@ VALUES
     ('Miniatures', 'Sport equipment'),
     ('Bikes', 'City and MTB bikes'),
     ('Music', 'Guitars, drums and other instruments'),
-    ('Kuvaus', 'Kamerart ja videolaitteet');
+    ('Kuvaus', 'Kamerat ja videolaitteet');
 
 INSERT INTO 
     product (product_name, price, image_url, category, product_description, units_stored) 
 VALUES 
     ('Macbook Pro 13', 1200, 'https://big.kapsi.fi/products/tattoo_pen_duct_tape.jpg', 'Tattooing','So cool!', 12),
-    ('iPhone 13', 700, 'https://big.kapsi.fi/products/camera_nightvision_02.jpg', 'Phones', 'Oh wow!', 44), 
+    ('iPhone 13', 700, 'https://big.kapsi.fi/products/camera_nightvision_02.jpg', 'Kuvaus', 'Oh wow!', 44), 
     ('Umbro football', 25, 'https://big.kapsi.fi/products/scale_model_what.jpg', 'Miniatures', 'Much happiness!', 304),
     ('Fender Stratocaster', 1550, 'https://big.kapsi.fi/products/moustache_and_eyebrows.jpg', 'Music', "For your neighbors's pleasure", 6), 
     ('Gibson Les Paul', 2100, 'https://big.kapsi.fi/products/moustache_rainbow.jpg', 'Music', "Olden gold.", 7 ), 
-    ('Google Pixel', 780, 'https://big.kapsi.fi/products/camera_retro.jpg', 'Phones', "Has more than one pixel!", 54);
+    ('Google Pixel', 780, 'https://big.kapsi.fi/products/camera_retro.jpg', 'Kuvaus', "Has more than one pixel!", 54);
